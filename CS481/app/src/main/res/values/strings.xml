@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Maps test</string>
+    <string name="my_API_key">AIzaSyDUHBmJ8rS1DhC8sqV9LnJJ0bv2I12iyXo</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string-array name="route_array">
+        <item>Display Route 12</item>
+        <item>Display Route 13</item>
+        <item>Display Route 14</item>
+        <item>Display Route 15</item>
+        <item>Display Route 16</item>
+    </string-array>
+
+    <string name="bookmark_button">Bookmark</string>
+
+</resources>

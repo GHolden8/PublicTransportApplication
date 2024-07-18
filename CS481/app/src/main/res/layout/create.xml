@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/transit2"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_margin="16dp"
+        android:layout_below="@id/imageView"
+    />
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@id/editTextUsername"
+        android:layout_margin="16dp"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_below="@id/editTextPassword"
+        android:layout_margin="16dp"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/buttonCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:layout_below="@+id/loginHere"
+        android:layout_margin="16dp"/>
+    <TextView
+        android:id="@+id/loginHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have a Account? Login here!"
+        android:textAlignment="center"
+        android:textColorLink="#0000FF"
+        android:layout_below="@id/confirmPassword" />
+
+
+
+</RelativeLayout>
